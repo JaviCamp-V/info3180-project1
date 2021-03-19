@@ -14,3 +14,13 @@ psycopg2
 # Production Server
 # ----------------------
 gunicorn
+
+alembic
+Click
+dnspython
+idna
+itsdangerous
+Mako
+MarkupSafe
+python-editor
+six
