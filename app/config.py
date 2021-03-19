@@ -7,7 +7,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') 
     SQLALCHEMY_TRACK_MODIFICATIONS = False # This is just here to suppress a warning from SQLAlchemy as it will soon be removed
     UPLOAD_FOLDER = './app/static/img'
-    #set DATABASE_URL=postgresql://project1:project1@localhost/project1
+    ###set DATABASE_URL=postgresql://project1:project1@localhost/project1
 
 class DevelopmentConfig(Config):
     """Development Config that extends the Base Config Object"""
